@@ -1,5 +1,8 @@
 {
   "name": "cama-website",
+
+  "homepage" : "https://edoardopieropan.github.io/",
+
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
