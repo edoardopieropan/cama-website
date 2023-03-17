@@ -1,0 +1,119 @@
+img{
+    object-fit: contain;
+    margin-bottom:20px;
+    max-width: 100%;
+}
+
+.productDescription{
+    color: darkgray;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+.productTitle{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.description{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.desciptionText{
+    font-size: large;
+}
+
+.pageDescription{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.banner{
+    background-color:darkslategray;
+    color:white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.infoCard {
+    max-width: 400px;
+    margin:20px;
+  }
+  
+  .headerImage {
+      background-size: cover;
+}
+.infoGrid{
+    margin-top: 20px
+}
+
+.customizationTitle{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.sizes span{
+    font-size: larger;
+    margin: 5px;
+    padding: 15px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.description h3{
+    font-weight: 300;
+    font-size: large;
+}
+
+.writeUs{
+    font-size: x-large;
+}
+
+.writeUsButton{
+    font-size: large;
+    padding: 20px;
+}
+
+.writeUsButton mat-icon{
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.bannerSpace{
+    padding:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.padding{
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+a {
+    text-decoration: none; /* to hide the underline */
+}
+
+.fade {
+    color: #fff;
+    transition: background-color 0.2s;
+    transition: color 0.6s;
+}
+
+.fade:hover {
+background-color: orange;
+color:white
+}
+
+.fade:focus,
+.fade:active {
+background-color: black;
+transition: none;
+}

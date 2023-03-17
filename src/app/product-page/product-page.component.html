@@ -1,0 +1,129 @@
+<div fxLayout="row" fxLayoutAlign="center" class="banner">
+    <span class="pageDescription" fxFlex>{{ 'LAST_PRODUCT' | translate }}</span>
+</div>
+<div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="space-between center">
+    <div fxHide.lt-md="true" fxFlex="10"></div>
+    <img fxFlex="40" src="assets/images/test.jpg">
+    <div fxFlex="40" class="description">   
+        <h1 class="productTitle">Kube</h1>
+        <h4 class="productDescription">{{ 'KUBE_SUBTITLE' | translate }}</h4>
+        <div class="desciptionText" [innerHTML]="'KUBE_DESCRIPTION' | translate"></div>
+    </div>
+    <div fxHide.lt-sm="true" fxFlex="10"></div>
+</div>
+
+
+<!--caratteristiche prodotto-->
+<div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center" fxLayoutGap class="infoGrid">
+    <mat-card class="infoCard" >
+        <mat-card-header>
+            <div mat-card-avatar class="headerImage"><mat-icon>widgets</mat-icon></div>
+            <mat-card-title>{{ 'INFOS.MATERIAL_INFO' | translate }}</mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle> 
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+            </p>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="infoCard" >
+        <mat-card-header>
+            <div mat-card-avatar class="headerImage"><mat-icon>palette</mat-icon></div>
+            <mat-card-title>{{ 'INFOS.CUSTOMIZATIONS_INFO' | translate }}</mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+            
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+            </p>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="infoCard" >
+        <mat-card-header>
+            <div mat-card-avatar class="headerImage"><mat-icon>straighten</mat-icon></div>
+            <mat-card-title>{{ 'INFOS.SIZE_INFO' | translate }}</mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle> 
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+            </p>
+        </mat-card-content>
+    </mat-card>
+    
+</div>
+
+<div style="margin-bottom: 40px"></div>
+<!--personalizzazione-->
+<div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="space-between">
+    <div fxHide.lt-md="true" fxFlex="10"></div>
+    <div fxFlex="30" style="align-items: center; text-align: center; color:lightgray">
+        <img [src]="customizeImage" ><br>
+        <figcaption style="padding-bottom: 20px;">{{ 'IMAGE_DISCLAIMER' | translate }}</figcaption>
+    </div>
+
+    <div fxFlex="20" class="description" >   
+        <h1 class="customizationTitle">{{ 'INFOS.CUSTOMIZATIONS_INFO' | translate }}</h1>
+        <h3>{{ 'MARBLE' | translate }}:</h3>
+        <div fxLayout="row wrap">
+            <app-circular-button (selected)="selectionStyle($event)"  image="assets/images/oniceBianco.jpg" title="Onice bianco" id="onice"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/verdeAlpi.jpg" title="Verde alpi" id="alpi"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/lepanto.jpg" title="Lepanto" id="lepanto"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/avocatus.jpg" title="Avocatus" id="avocatus"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/calcatta.jpg" title="Calacatta Carrara" id="calacatta"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/persianGray.jpg" title="Persian gray" id="persian"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" image="assets/images/saharaNoir.jpg" title="Sahara noir" id="sahara"></app-circular-button>
+        </div>
+        <h3>{{ 'LEGS' | translate }}:</h3>
+        <div fxLayout="row wrap">
+            <app-circular-button (selected)="selectionStyle($event)" color="#0b2402" color2="#017a15" title="COLORS.BOTTLE_GREEN" id="green"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" color="#875e01" color2="#e6bc5c" title="COLORS.GOLD" id="gold"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" color="black" color2="#696969" title="COLORS.MATTE_BLACK" id="black"></app-circular-button>
+            <app-circular-button (selected)="selectionStyle($event)" color="#b5b5b5" color2="white" title="COLORS.MATTE_WHITE" id="white"></app-circular-button>
+        </div>
+        <h3>{{ 'SIZE' | translate }} (cm):</h3>
+        <div fxLayout="row wrap" class="sizes">
+            <span>100x100xh35</span>
+            <span>130x50xh88</span>
+            <span>80x80xh40</span>
+            <span>60x60xh40</span>
+            <span>50x50xh40</span>
+            <span>35x35xh40</span>
+        </div>
+    </div >
+    <div fxHide.lt-sm="true" fxFlex="10"></div>
+</div>
+<div id="contacts" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutAlign="space-evenly center" class="banner bannerSpace">
+    <span class="writeUs">{{ 'WRITE_US_BANNER.TEXT' | translate }}</span>
+    <div fxLayout.lt-sm="row" fxLayoutAlign="space-between center">
+        <div class="padding">
+            <h3><b>{{ 'WRITE_US_BANNER.CONTACTS' | translate }}</b></h3>
+            <span>+(39) 333123456</span><br>
+            <span>email@email.it</span>
+        </div>
+        <a href="mailto:email@email.it" target="_blank" rel="noopener noreferrer">
+            <button mat-flat-button class="writeUsButton fade"><mat-icon>outgoing_mail</mat-icon> {{ 'WRITE_US_BANNER.BUTTON' | translate }}</button>
+        </a>
+    </div>
+</div>
+<div fxLayout="row" fxLayoutAlign="space-evenly">
+    <span>
+        <b>Cama design</b><br>
+        Italy
+    </span>
+    <div fxLayout="column"  fxLayoutAlign="space-between">
+        <span style="margin-bottom:5px">{{ 'FOLLOW' | translate }}</span>
+        <img src="assets/images/ig.png" width="30px">
+    </div>
+    
+</div>

@@ -1,0 +1,28 @@
+{
+    "LANGUAGE":"Language",
+    "CONTACTS":"Contacts",
+    "LAST_PRODUCT":"Our last product",
+    "KUBE_SUBTITLE": "Functionality, elegance and the value of our marble encapsulated in our coffee table line",
+    "KUBE_DESCRIPTION": "The low tables in the kube line have a square or rectangular look, conveying its contemporary spirit, and can thus blend into your environment in a completely natural way.<br><br>The structure of the kube coffee table consists of thin metal frames with a square cross-section (20 mm thick) and colour finishes such as matt black, matt white, bottle green and gold.<br>The marble tops with a square profile and a thickness of 20 mm can be offered in different types, allowing the entire line of our coffee tables to accommodate books, ashtrays and any other object that will bring your space to life.<br><br>Kube is available in various sizes and is ideal for residential projects but also for hospitality, catering and office use.",
+    "INFOS": {
+        "MATERIAL_INFO":"Materials",
+        "CUSTOMIZATIONS_INFO":"Customization",
+        "SIZE_INFO":"Sizes"
+    },
+    "IMAGE_DISCLAIMER":"The image is purely indicative and may not fully reflect the characteristics of the product",
+    "MARBLE":"Marble",
+    "LEGS":"Table legs",
+    "COLORS":{
+        "BOTTLE_GREEN":"Bottle green",
+        "GOLD": "Gold",
+        "MATTE_BLACK": "Matte black",
+        "MATTE_WHITE": "Matte white"
+    },
+    "SIZE":"Size",
+    "WRITE_US_BANNER":{
+        "TEXT":"Need info? Contact us!",
+        "BUTTON": "WRITE US",
+        "CONTACTS":"Contacts"
+    },
+    "FOLLOW":"Follow us"
+}

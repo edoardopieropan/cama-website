@@ -1,0 +1,36 @@
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-between">
+    <div class="menuIcon" fxHide.gt-sm="true">
+        <button mat-button [matMenuTriggerFor]="menu" >
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div fxFlex="15" fxShow="true" fxHide.lt-md="true"></div>
+    <img fxFlex src="assets/images/logo.png"/>
+    <div fxFlex="15" fxShow="true" fxHide.lt-md="true">
+        <button mat-button [matMenuTriggerFor]="language" aria-label="language menu" xPosition="before">
+            <span class="menuOption">{{ 'LANGUAGE' | translate }}</span>
+        </button>
+        <button mat-button (click)="scroll()">
+            <span class="menuOption">{{ 'CONTACTS' | translate }}</span>
+        </button>
+    </div>
+</mat-toolbar>
+
+<mat-menu #language>
+    <button (click)="setLanguage('en')" mat-menu-item [disabled]="languageDisabled('en')">
+        <span class="fi fi-gb"></span>
+        English
+    </button>
+    <button (click)="setLanguage('it')" mat-menu-item [disabled]="languageDisabled('it')">
+        <span class="fi fi-it"></span>
+        Italiano
+    </button>
+</mat-menu>
+<mat-menu #menu>
+    <button mat-menu-item (click)="scroll()">
+        {{ 'CONTACTS' | translate }}
+    </button>
+    <button  mat-menu-item  [matMenuTriggerFor]="language" aria-label="language menu" xPosition="before">
+        <span class="menuOption">{{ 'LANGUAGE' | translate }}</span>
+    </button>
+</mat-menu>

@@ -1,0 +1,28 @@
+{
+    "LANGUAGE":"Lingua",
+    "CONTACTS":"Contatti",
+    "LAST_PRODUCT":"Il nostro ultimo prodotto",
+    "KUBE_SUBTITLE": "Funzionalità, eleganza e il valore dei nostri marmi racchiusi nella nostra linea di coffee table",
+    "KUBE_DESCRIPTION": "I tavolini bassi della linea Kube si presentano con un look quadrato o rettangolare, diffondendo il suo spirito contemporaneo, riuscendo così a combinarsi in un modo del tutto naturale nel tuo ambiente.<br><br>La struttura del tavolino Kube è composta da sottili strutture metalliche a sezione quadrata (dello spessore di 20mm) e con finiture di colore quali: nero opaco, bianco opaco, verde bottiglia e oro.<br>I piani in marmo aventi profilo quadrato e spessore di 20mm può essere proposto in diverse tipologie, consentendo a tutta la linea dei nostri coffee table di accogliere libri, posacenere e qualsiasi altro oggetto che farà prendere vita ai tuoi spazi.<br><br>Kube è disponibile in varie dimensioni ed è ideale per progetti residenziali ma anche per l’ospitality, la ristorazione e office.",
+    "INFOS": {
+        "MATERIAL_INFO":"Materiali",
+        "CUSTOMIZATIONS_INFO":"Personalizzazione",
+        "SIZE_INFO":"Dimensioni"
+    },
+    "IMAGE_DISCLAIMER":"L'immagine è puramente indicativa e potrebbe non rispecchiare appieno le caratteristiche del prodotto",
+    "MARBLE":"Marmo",
+    "LEGS":"Gambe del tavolo",
+    "COLORS":{
+        "BOTTLE_GREEN":"Verde bottiglia",
+        "GOLD": "Oro",
+        "MATTE_BLACK": "Nero opaco",
+        "MATTE_WHITE": "Bianco opaco"
+    },
+    "SIZE":"Dimensione",
+    "WRITE_US_BANNER":{
+        "TEXT":"Vuoi chiarimenti? Contattaci!",
+        "BUTTON": "SCRIVICI",
+        "CONTACTS":"Contatti"
+    },
+    "FOLLOW":"Seguici"
+}
