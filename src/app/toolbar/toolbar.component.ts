@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -7,9 +7,9 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./toolbar.component.css']
 })
 export class ToolbarComponent {
-  currentLanguage: string = "it";
   translate: any;
   @Output() changeLanguage = new EventEmitter<string>();
+  @Input() currentLanguage: string= 'it';
   /**
    *
    */

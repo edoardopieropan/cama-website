@@ -1,5 +1,5 @@
 <div style="margin-bottom: 80px;">
-    <app-toolbar (changeLanguage)="changeLanguage($event)" style="position:fixed; top:0; width:100%; z-index: 10;"></app-toolbar>
+    <app-toolbar (changeLanguage)="changeLanguage($event)" [currentLanguage]="currentLanguage" style="position:fixed; top:0; width:100%; z-index: 10;"></app-toolbar>
 </div>
 <div style="height: 100%; vertical-align:middle;">
     <app-product-page [language]="currentLanguage"></app-product-page>
