@@ -36,7 +36,7 @@ export class ProductPageComponent implements OnChanges {
   }
 
   getImageName(marble:string, color:string){
-    return `/assets/images/preview/${marble}_${color}.png`;
+    return `assets/images/preview/${marble}_${color}.png`;
   }
 
 

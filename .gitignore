@@ -40,3 +40,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+src/assets/images/preview/tavolini.pdf
+docs/assets/images/preview/tavolini.pdf
