@@ -20,9 +20,10 @@
     },
     "SIZE":"Dimensione",
     "WRITE_US_BANNER":{
-        "TEXT":"Vuoi chiarimenti? Contattaci!",
+        "TEXT":"Hai bisogno di chiarimenti? Contattaci!",
         "BUTTON": "SCRIVICI",
         "CONTACTS":"Contatti"
     },
-    "FOLLOW":"Seguici"
+    "FOLLOW":"Seguici",
+    "CONFIGURATOR":"Configuratore"
 }

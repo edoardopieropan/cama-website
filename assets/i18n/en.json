@@ -24,5 +24,7 @@
         "BUTTON": "WRITE US",
         "CONTACTS":"Contacts"
     },
-    "FOLLOW":"Follow us"
+    "FOLLOW":"Follow us",
+    "CONFIGURATOR":"Configurator"
+
 }
