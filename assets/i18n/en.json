@@ -6,8 +6,11 @@
     "KUBE_DESCRIPTION": "The low tables in the kube line have a square or rectangular look, conveying its contemporary spirit, and can thus blend into your environment in a completely natural way.<br><br>The structure of the kube coffee table consists of thin metal frames with a square cross-section (20 mm thick) and colour finishes such as matt black, matt white, bottle green and gold.<br>The marble tops with a square profile and a thickness of 20 mm can be offered in different types, allowing the entire line of our coffee tables to accommodate books, ashtrays and any other object that will bring your space to life.<br><br>Kube is available in various sizes and is ideal for residential projects but also for hospitality, catering and office use.",
     "INFOS": {
         "MATERIAL_INFO":"Materials",
+        "MATERIAL_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus.",
         "CUSTOMIZATIONS_INFO":"Customization",
-        "SIZE_INFO":"Sizes"
+        "CUSTOMIZATIONS_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus.",
+        "SIZE_INFO":"Sizes",
+        "SIZE_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus."
     },
     "IMAGE_DISCLAIMER":"The image is purely indicative and may not fully reflect the characteristics of the product",
     "MARBLE":"Marble",
@@ -20,11 +23,15 @@
     },
     "SIZE":"Size",
     "WRITE_US_BANNER":{
-        "TEXT":"Need info? Contact us!",
+        "TEXT":"Price and product info? Contact us!",
         "BUTTON": "WRITE US",
         "CONTACTS":"Contacts"
     },
     "FOLLOW":"Follow us",
-    "CONFIGURATOR":"Configurator"
+    "CONFIGURATOR":"Configurator",
+    "EMAIL": {
+        "SUBJECT": "Product Information Kube",
+        "BODY": "Dear Team,\n\nI am interested in the product Kube.\nCould you provide me with more details?\n\nBest regards"
+    }   
 
 }

@@ -6,8 +6,11 @@
     "KUBE_DESCRIPTION": "I tavolini bassi della linea Kube si presentano con un look quadrato o rettangolare, diffondendo il suo spirito contemporaneo, riuscendo così a combinarsi in un modo del tutto naturale nel tuo ambiente.<br><br>La struttura del tavolino Kube è composta da sottili strutture metalliche a sezione quadrata (dello spessore di 20mm) e con finiture di colore quali: nero opaco, bianco opaco, verde bottiglia e oro.<br>I piani in marmo aventi profilo quadrato e spessore di 20mm può essere proposto in diverse tipologie, consentendo a tutta la linea dei nostri coffee table di accogliere libri, posacenere e qualsiasi altro oggetto che farà prendere vita ai tuoi spazi.<br><br>Kube è disponibile in varie dimensioni ed è ideale per progetti residenziali ma anche per l’ospitality, la ristorazione e office.",
     "INFOS": {
         "MATERIAL_INFO":"Materiali",
+        "MATERIAL_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus.",
         "CUSTOMIZATIONS_INFO":"Personalizzazione",
-        "SIZE_INFO":"Dimensioni"
+        "CUSTOMIZATIONS_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus.",
+        "SIZE_INFO":"Dimensioni",
+        "SIZE_INFO_DESCR":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor diam, bibendum a molestie sed, maximus eu lacus."
     },
     "IMAGE_DISCLAIMER":"L'immagine è puramente indicativa e potrebbe non rispecchiare appieno le caratteristiche del prodotto",
     "MARBLE":"Marmo",
@@ -20,10 +23,14 @@
     },
     "SIZE":"Dimensione",
     "WRITE_US_BANNER":{
-        "TEXT":"Hai bisogno di chiarimenti? Contattaci!",
+        "TEXT":"Hai bisogno di informazioni sul prezzo o sul prodotto? Contattaci!",
         "BUTTON": "SCRIVICI",
         "CONTACTS":"Contatti"
     },
     "FOLLOW":"Seguici",
-    "CONFIGURATOR":"Configuratore"
+    "CONFIGURATOR":"Configuratore",
+    "EMAIL": {
+        "SUBJECT": "Informazioni sul prodotto Kube",
+        "BODY": "Gentile Team,\n\nsono interessato al prodotto Kube.\nPotrei avere ulteriori dettagli?\n\nCordiali saluti"
+    }
 }
